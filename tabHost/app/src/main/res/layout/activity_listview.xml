@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:background="@color/white"
+        android:id="@+id/simpleListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#03A9F4"
+        android:dividerHeight="1dp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="195dp"
+        android:listSelector="#FFC107"/>
+</RelativeLayout>
