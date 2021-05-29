@@ -8,9 +8,7 @@ import android.widget.TabHost;
 import android.widget.Toast;
 
 public class MainActivity extends TabActivity {
-    /**
-     * Called when the activity is first created.
-     */
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
